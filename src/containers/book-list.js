@@ -5,7 +5,7 @@ export default class BookList extends Component{
         return this.props.books.map((book) => {
             return(
               <li key={book.title} className="list-group-item">{book.title}</li>
-            )
+            );
         })
     }
 }
